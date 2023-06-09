@@ -1,6 +1,9 @@
 import ServicesMainPage from "./components/ServicesMainPage";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ProductsMainPage from "./components/ProductsMainPage";
+import CustomerComments from "./components/CustomerComments";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -8,9 +11,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ServicesMainPage />
-      {/* Algunos de nustros productos */}
-      {/* Comentarios de nuestro clientes */}
-      {/* Footer */}
+      <ProductsMainPage />
+      <CustomerComments />
+      <Footer />
     </main>
   );
 }

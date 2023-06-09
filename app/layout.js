@@ -8,6 +8,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://cdn.lineicons.com/4.0/lineicons.css"
+          rel="stylesheet"
+        />
+      </head>
       <body className="bg-[#f8f2ec]">{children}</body>
     </html>
   );
