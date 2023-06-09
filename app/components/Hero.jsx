@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="bg-[url('/img/studio.webp')] bg-cover bg-center min-h-[500px] text-white relative">
         <div className="h-full w-full justify-center absolute text-center bg-black bg-opacity-50 flex items-center">
           <div className="flex flex-col gap-8">
-            <h1 className="text-7xl">Buddha Studio Nails</h1>
+            <h1 className="text-7xl">Buda Studio Nails</h1>
             <div className="max-w-xl mx-auto text-md">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
